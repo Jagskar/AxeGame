@@ -7,4 +7,11 @@ int main()
     const char* title = "Axe Game";
 
     InitWindow(width, height, title);
+
+    while (!WindowShouldClose())
+    {
+        BeginDrawing();
+        ClearBackground(RED);
+        EndDrawing();
+    }
 }
