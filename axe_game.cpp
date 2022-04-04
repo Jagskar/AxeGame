@@ -1,5 +1,4 @@
 #include "raylib.h"
-#include <iostream>
 
 #define BACKGROUND_COLOR  (Color) { 128, 0, 128, 255 }
 #define PLAYER_COLOR      (Color) { 189, 53, 122, 255 }
